@@ -1,6 +1,7 @@
 .body {
-  font-family: 'Roboto', Arial, Helvetica, sans-serif sans-serif;
-  color: #2e2f42;
+  background-color: #ffffff;
+  color: #434455;
+  font-family: 'Roboto', sans-serif;
 }
 
 /*navigation-menu*/
@@ -9,9 +10,12 @@
 }
 .logo {
   font-family: 'Raleway', sans-serif;
-  color: #4d5ae5;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
   text-decoration: none;
 }
 .logo-span {
@@ -25,29 +29,12 @@
 .menu-head-current-link {
   color: #2e2f42;
   font-size: 16px;
-  line-height: 1.17;
+  line-height: 1.5;
   text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 .menu-head-current-link:hover {
-  color: #404bbf;
-}
-
-.menu-head-link {
-  color: #2e2f42;
-  font-size: 16px;
-  line-height: 1.17;
-  text-decoration: none;
-}
-.menu-head-link:hover {
-  color: #404bbf;
-}
-.menu-head {
-  color: #2e2f42;
-  font-size: 16px;
-  line-height: 1.17;
-  text-decoration: none;
-}
-.menu-head:hover {
   color: #404bbf;
 }
 .contacts {
@@ -56,13 +43,14 @@
 .mail-tel {
   background-color: #ffffff;
   list-style-type: none;
+  font-style: normal;
 }
 .mail {
   color: #434455;
   font-size: 16px;
-  line-height: 1.17;
+  line-height: 1.5;
   text-decoration: none;
-  font-style: normal;
+  letter-spacing: 0.02em;
 }
 .mail:hover {
   color: #404bbf;
@@ -70,9 +58,9 @@
 .tel {
   color: #434455;
   font-size: 16px;
-  line-height: 1.17;
+  line-height: 1.5;
   text-decoration: none;
-  font-style: normal;
+  letter-spacing: 0.02em;
 }
 
 /*main-page-button*/
@@ -83,14 +71,18 @@
   color: #fff;
   text-align: center;
   font-size: 56px;
-  line-height: 1.17;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 .button {
   color: #fff;
   font-size: 16px;
-  line-height: 1.17;
+  line-height: 1.5;
   cursor: pointer;
   background: #4d5ae5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.04em;
 }
 .button:hover {
   background: #404bbf;
@@ -113,23 +105,28 @@
 .feature-name {
   color: #2e2f42;
   font-size: 20px;
-  line-height: 1.17;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 .feature-description {
   color: #434455;
   font-size: 16px;
-  line-height: 1.17;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* team */
-. .team-information {
+.team-information {
   background-color: #f4f4fd;
 }
 .our-team {
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
-  line-height: 1.17;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .team-list {
   background-color: #f4f4fd;
@@ -141,12 +138,15 @@
 .name {
   color: #2e2f42;
   font-size: 20px;
-  line-height: 1.17;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 .position {
   color: #434455;
   font-size: 16px;
-  line-height: 1.17;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* portfolio */
 .portfolio {
@@ -156,7 +156,9 @@
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
-  line-height: 1.17;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .projects {
   background-color: #fff;
@@ -168,12 +170,15 @@
 .project-name {
   color: #2e2f42;
   font-size: 20px;
-  line-height: 1.17;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 .kind-of-project {
   color: #434455;
   font-size: 16px;
-  line-height: 1.17;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* footer */
 .page-footer {
@@ -181,10 +186,13 @@
 }
 .logo-footer {
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   color: #4d5ae5;
   font-size: 18px;
   line-height: 1.17;
   text-decoration: none;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .logo-span-footer {
   color: #f4f4fd;
@@ -193,5 +201,6 @@
   color: #f4f4fd;
   font-family: Roboto;
   font-size: 16px;
-  line-height: 1.17;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
