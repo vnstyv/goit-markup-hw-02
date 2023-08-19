@@ -1,4 +1,4 @@
-.body {
+.body-class {
   background-color: #ffffff;
   color: #434455;
   font-family: 'Roboto', sans-serif;
@@ -37,30 +37,29 @@
 .menu-head-current-link:hover {
   color: #404bbf;
 }
+.menu-head-current-link:focus {
+  color: #404bbf;
+}
 .contacts {
   background-color: #ffffff;
+  font-style: normal;
 }
 .mail-tel {
   background-color: #ffffff;
   list-style-type: none;
-  font-style: normal;
 }
-.mail {
+.mail-and-tel {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   text-decoration: none;
   letter-spacing: 0.02em;
 }
-.mail:hover {
+.mail-and-tel:hover {
   color: #404bbf;
 }
-.tel {
-  color: #434455;
-  font-size: 16px;
-  line-height: 1.5;
-  text-decoration: none;
-  letter-spacing: 0.02em;
+.mail-and-tel:focus {
+  color: #404bbf;
 }
 
 /*main-page-button*/
@@ -86,6 +85,9 @@
 }
 .button:hover {
   background: #404bbf;
+}
+.button:focus {
+  background-color: #404bbf;
 }
 
 /*features*/
